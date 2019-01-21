@@ -46,7 +46,7 @@ several parts, each testing the framework in different areas and strictness.
     The golden tests can be run using the following command:
     
     ```
-    python3 rl_coach/tests/test_golden.py
+    python3 -m pytest rl_coach/tests -m golden_test
     ```
 
 * **Trace tests** -
